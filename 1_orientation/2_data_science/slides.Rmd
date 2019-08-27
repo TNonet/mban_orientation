@@ -1,7 +1,7 @@
 ---
-title: "Data Science Fundamentals with R"
+title: "Data Science Fundamentals in R"
 author: "Phil Chodrow, MIT"
-date: "Tuesday, August 27th, 2018"
+date: "Tuesday, August 27th, 2019"
 output: 
   revealjs::revealjs_presentation:
     slide_level: 2
@@ -197,12 +197,15 @@ knitr::include_graphics("http://pix-media.s3.amazonaws.com/blog/1001/HadleyObama
 > - Misc. other options. 
 > - (`+` plays the same role in `ggplot2` that `%>%` does in data manipulation.)
 
-# R Markdown
+# Literate Programming with R Markdown
 
-## Literate Programming with R Markdown
+## Literate Programming
+
+The idea of *literate programming* is to collect your code, outputs, and explanatory narrative in a single, convenient document that can meet the needs of multiple stakeholders.  
+
+## R Markdown
 
 - [R Markdown](https://rmarkdown.rstudio.com) is an authoring format for creating attractive documents, slides, websites, and more using `R`. 
-- It is easily the best way to share plots, code, and narrative in a single document. 
 - These slides are written in RMarkdown ([source here](https://philchodrow.github.io/mban_orientation/1_orientation/2_data_science/index.html)). 
 - We are going to take a quick tour of R Markdown features before jumping into your mini-project for today. 
 
@@ -224,7 +227,6 @@ Like [this](https://philchodrow.github.io/mban_orientation/1_orientation/2_data_
 - Personalize the dashboard with your name and your partner's name. 
 - Conduct analysis to identify **three** locations or neighborhoods you want to visit. Use Google to figure out what might be interesting about those spots, but your commentary should show how your analysis supports your findings. 
 - At the end of the hour, you will upload `dashboard.html` at the provided link. 
-- A subset of groups will be ***randomly chosen to briefly present their work.***
 
 # Additional Resources
 
